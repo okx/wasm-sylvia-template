@@ -1,6 +1,6 @@
 use cosmwasm_schema::write_api;
 
-use cw1_whitelist::contract::{ContractExecMsg, ContractQueryMsg, InstantiateMsg};
+use contract::{ContractExecMsg, ContractQueryMsg, InstantiateMsg};
 
 #[cfg(not(tarpaulin_include))]
 fn main() {
