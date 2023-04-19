@@ -1,6 +1,6 @@
 use cosmwasm_schema::write_api;
 
-use {{crate_name}}::{ContractExecMsg, ContractQueryMsg, InstantiateMsg};
+use {{crate_name}}::contract::{ContractExecMsg, ContractQueryMsg, InstantiateMsg};
 
 #[cfg(not(tarpaulin_include))]
 fn main() {
