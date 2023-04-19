@@ -1,4 +1,3 @@
-use cosmwasm_schema::write_api;
 use {{crate_name}}::contract::{ContractExecMsg, ContractQueryMsg, InstantiateMsg};
 use std::env::current_dir;
 use std::fs::create_dir_all;
